@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    
+    
+  }
+  .navbar {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+  }
+  
+  .logo{
+    display: none;
+  }
+  
+  .left {
+    height: 32px;
+    padding: 0 24px;
+    margin: 10px 0 10px 0;
+    font-size: 20px;
+  } 
+  
+  .left img{
+    margin-top: 10px;
+  }
+
+  .hhh{
+    margin-top: 10px;
+  }
+
+  .left a {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left a span {
+    color: rgb(92, 91, 91);
+  }
+  
+  .right {
+    width: 35%;
+    margin: 0 0 10px 0;
+    padding: 24px;
+    font-size: 20px;
+  }
+  
+  .right ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  .right ul li a {
+    color: rgb(92, 91, 91);
+  }
+  .container-1 {
+    gap: 24px;
+    background-color: #d8d8d8;
+    color: rgb(92, 91, 91);
+  }
+  .box-1-1 {
+    width: 60%;
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+    margin-right: 24px;
+  }
+  .box-1-1 img {
+    width: 100%;
+    height: auto;
+  }
+  .box-1-2 {
+    width: 30%;
+    margin-top: 32px;
+    font-size: larger;
+    display: flex;
+    flex-flow: wrap column;
+    /* text-align: center; */
+    justify-content: center;
+    font-size: 28px;
+   line-height: 50px;
+  }
+  
+  
+  .box-1-2 p{
+    line-height: 60px;
+    
+  }
+  button {
+    width: 90%;
+    height: 50px;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .button p .text{
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+  }
+  
+  #a{
+    margin-left: 10px;
+  }
+  
+  #xyz{
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 40px;
+  }
+  
+  .abc{
+    margin-left: 20px;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    /* Adjust the styles for mobile devices here */
+  
+    .container-1 {
+      flex-direction: column;
+      width: 0;
+    }
+  
+    .logo {
+      display: block;
+    }
+  
+    .navbar,
+    .right {
+      display: none;
+    }
+  
+    .nav-logo .logo{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      text-decoration: none;
+    }
+  
+    .nav-logo .logo{
+      margin-top: 6px;
+      margin-right: 20px; /* Adjust the desired spacing between the logo images */
+      height: 50px;
+    }
+
+    .box-1-1{
+      width: 90%;
+    
+    }
+    .box-1-1 img{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .box-1-2{
+      line-height: 30px;
+      font-size: 20px;
+    }
+
+    button {
+      margin-left: 5px;
+      width: 400px;
+      height: 50px;
+
+     
+    }
+    #xyz{
+      margin-bottom: 5px;
+    }
+
+    .abc{
+      margin-left: 20px;
+      line-height: 0;
+    }
+    
+  }
